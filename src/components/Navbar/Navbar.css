@@ -1,0 +1,15 @@
+.navbar {
+  @apply w-full fixed bg-[#080808] py-5;
+}
+
+.navbar-content {
+  @apply flex justify-between items-center w-[85%] mx-auto;
+}
+
+.brand {
+  @apply text-white text-4xl font-bold;
+}
+
+.logo {
+  @apply h-[40px] drop-shadow-[0px_0px_8px_rgba(225,255,255,0.5)] select-none hover:animate-pulse;
+}
