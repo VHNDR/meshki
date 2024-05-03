@@ -1,5 +1,5 @@
 .navbar {
-  @apply w-full fixed bg-[#080808] py-5;
+  @apply w-full fixed bg-c-back2 py-5;
 }
 
 .navbar-content {
@@ -7,7 +7,7 @@
 }
 
 .brand {
-  @apply text-white text-4xl font-bold;
+  @apply text-c-text3 text-4xl font-bold;
 }
 
 .logo {
