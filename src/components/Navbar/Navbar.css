@@ -9,7 +9,24 @@
 .brand {
   @apply text-c-text3 text-4xl font-bold;
 }
-
+.navbar .img-warper{
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 .logo {
-  @apply h-[40px] drop-shadow-[0px_0px_8px_rgba(225,255,255,0.5)] select-none hover:animate-pulse;
+  @apply h-[40px] drop-shadow-[0px_0px_10px_#e7e1b1] select-none hover:drop-shadow-[0px_0px_3px_#b9baa3ff] duration-300 ease-in-out;
+}
+.navbar .img-warper:hover .textspan{
+  opacity: 100%;
+}
+.navbar .img-warper .textspan{
+  @apply select-none bg-c-scnd text-c-text3 font-yekan font-bold rounded-md border-c-text3 py-1  duration-300 ease-in-out; 
+  opacity: 0;
+  border:1px solid;
+  position: absolute;
+width: 140px;
+  margin-top: 50px;
+
 }

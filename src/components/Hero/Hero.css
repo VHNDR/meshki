@@ -1,3 +1,6 @@
 .hero{
-   @apply w-full h-screen min-h-[400px] bg-slate-400 ;
+   @apply w-full h-screen min-h-[400px] flex justify-center items-center text-center ;
+}
+.hero .hero-title {
+    @apply text-c-text3 text-4xl font-yekan font-ebold ;
 }
