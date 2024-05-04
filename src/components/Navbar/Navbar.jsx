@@ -12,7 +12,7 @@ const Navbar = () => {
             src='../src/assets/images/full-moon.png'
             alt="/"
           />
-<span className='textspan'>no light mode </span>
+<span className='textspan'>اونلی دارک مود</span>
         </div>
 
       </div>

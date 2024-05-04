@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <div className='min-h-screen w-full p-0 m-0 bg-c-back text-c-text '>
+    <div className='min-h-screen w-full p-0 m-0 bg-c-back text-c-text'>
       <Navbar/>
       <Hero/>
       <Footer/>

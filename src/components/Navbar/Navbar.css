@@ -1,9 +1,10 @@
 .navbar {
   @apply w-full fixed bg-c-back2 py-5;
+  z-index: 999;
 }
 
 .navbar-content {
-  @apply flex justify-between items-center w-[85%] mx-auto;
+  @apply flex justify-between items-center w-[90%] mx-auto;
 }
 
 .brand {

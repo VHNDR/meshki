@@ -12,7 +12,8 @@ module.exports = {
         'c-text': '#fff', // Text color
         'c-text2': '#d6d5c9ff', // Text color
         'c-text3': '#b9baa3ff', // Text color
-        'c-prim': '#ffd931', // Primary background 
+        'c-prim': '#f6b000', // Primary background 
+        'c-prim2': '#ffd931', // Primary background 
         'c-scnd': '#0e0b02', // Secondary background
         // 'c-acnt1': '#F6F1D5', // Accent color 1
         // 'c-acnt2': '#10100E', // Accent color 2
